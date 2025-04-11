@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Banner from '../components/Banner'
 import Catalogue from '../components/Catalogue'
 import TopCollection from '../components/TopCollection'
+import FashionTrend from '../components/FashionTrend'
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Banner/>
       <Catalogue/>
       <TopCollection/>
+      <FashionTrend/>
     </div>
   )
 }

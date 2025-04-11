@@ -5,25 +5,10 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
 }
 
-#men-coll {
-  background-image: url(../src/assets/collection/men_coll.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 30vh;
-  width: 50%;
-  position: relative;
-}
-
-#women-coll {
-  background-image: url(../src/assets/collection/women_coll.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 30vh;
-  width: 50%;
-  position: relative;
+#fashion {
+  background-image: url(../src/assets/fashion/1.jpg);
+  background-attachment: fixed;
+  height: 50%;
 }

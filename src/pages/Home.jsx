@@ -4,6 +4,8 @@ import Banner from '../components/Banner'
 import Catalogue from '../components/Catalogue'
 import TopCollection from '../components/TopCollection'
 import FashionTrend from '../components/FashionTrend'
+import SpecialProducts from '../components/SpecialProducts'
+import Service from '../components/Service'
 
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
       <Catalogue/>
       <TopCollection/>
       <FashionTrend/>
+      <SpecialProducts/>
+      <Service/>
     </div>
   )
 }

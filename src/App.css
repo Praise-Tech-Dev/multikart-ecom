@@ -10,5 +10,7 @@
 #fashion {
   background-image: url(../src/assets/fashion/1.jpg);
   background-attachment: fixed;
-  height: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

@@ -5,7 +5,7 @@ export default function Service() {
     console.log(ServiceData, 'ServiceData') 
 
   return (
-    <div className='border-y-1 border-[#d6d3d3] w-[90%] m-auto py-5 md:flex lg:flex justify-center'>
+    <div className='border-y-1 border-[#d6d3d3] w-[90%] m-auto py-5 md:py-[30px] lg:py-[35px] md:flex lg:flex justify-center'>
 
         {
             ServiceData.map((data, index)=>{

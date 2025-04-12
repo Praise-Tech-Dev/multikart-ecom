@@ -6,6 +6,8 @@ import TopCollection from '../components/TopCollection'
 import FashionTrend from '../components/FashionTrend'
 import SpecialProducts from '../components/SpecialProducts'
 import Service from '../components/Service'
+import Blog from '../components/Blog'
+import InstaBlog from '../components/InstaBlog'
 
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <FashionTrend/>
       <SpecialProducts/>
       <Service/>
+      <Blog/>
+      <InstaBlog/>
     </div>
   )
 }

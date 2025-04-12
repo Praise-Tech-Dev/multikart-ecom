@@ -1,4 +1,14 @@
 const InstaData = [
+    
+    {
+        img: './insta/1.jpg'
+    },
+    {
+        img: './insta/2.jpg'
+    },
+    {
+        img: './insta/3.jpg'
+    },
     {
         img: './insta/7.jpg'
     },
@@ -11,15 +21,7 @@ const InstaData = [
     {
         img: './insta/13.jpg'
     },
-    {
-        img: './insta/1.jpg'
-    },
-    {
-        img: './insta/2.jpg'
-    },
-    {
-        img: './insta/3.jpg'
-    },
+    
 ]
 
 export default InstaData;

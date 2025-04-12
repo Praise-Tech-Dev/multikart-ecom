@@ -1,13 +1,13 @@
 import React from 'react'
-import InstaData from '../utils/instaData'
+import LogoData from '../utils/logoData'
 
-export default function Insta() {
-    console.log(InstaData, 'InstaData');
+export default function Logo() {
+    console.log(LogoData, 'LogoData');
   return (
-    <div className='grid grid-cols-3 md:grid-cols-5 lg:grid-cols-7'>
-        
+    
+    <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 py-[30px] md:py-[50px] lg:py-[60px]'>
       {
-        InstaData.map((data, index) =>{
+        LogoData.map((data, index)=>{
             return (
                 <div>
                     <div className=''>

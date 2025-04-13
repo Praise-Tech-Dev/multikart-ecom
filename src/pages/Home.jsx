@@ -9,6 +9,7 @@ import Service from '../components/Service'
 import Blog from '../components/Blog'
 import InstaBlog from '../components/InstaBlog'
 import Logo from '../components/Logo'
+import Subsrcibe from '../components/Subsrcibe'
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <Blog/>
       <InstaBlog/>
       <Logo/>
+      <Subsrcibe/>
     </div>
   )
 }

@@ -10,8 +10,8 @@ export default function Logo() {
         LogoData.map((data, index)=>{
             return (
                 <div>
-                    <div className=''>
-                        <img src={data.img} className='w-full'/>
+                    <div className='mx-[30px] lg:mx-[54.5px]'>
+                        <img src={data.img} className='w-full grayscale opacity-50'/>
                     </div>
                 </div>
             )

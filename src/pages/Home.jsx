@@ -10,6 +10,8 @@ import Blog from '../components/Blog'
 import InstaBlog from '../components/InstaBlog'
 import Logo from '../components/Logo'
 import Subsrcibe from '../components/Subsrcibe'
+import Footer from '../components/Footer'
+import FooterBottom from '../components/FooterBottom'
 
 
 export default function Home() {
@@ -26,6 +28,8 @@ export default function Home() {
       <InstaBlog/>
       <Logo/>
       <Subsrcibe/>
+      <Footer/>
+      <FooterBottom/>
     </div>
   )
 }

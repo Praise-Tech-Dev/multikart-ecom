@@ -5,7 +5,7 @@ export default function Logo() {
     console.log(LogoData, 'LogoData');
   return (
     
-    <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 py-[30px] md:py-[50px] lg:py-[60px]'>
+    <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 py-[30px] md:py-[50px] lg:py-[60px] max-w-[1400px] m-auto'>
       {
         LogoData.map((data, index)=>{
             return (

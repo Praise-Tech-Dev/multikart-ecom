@@ -3,9 +3,11 @@ import SpecialData from '../utils/specialData'
 
 export default function Special() {
     console.log(SpecialData, 'SpecialData');
+
+    
   return (
     <div>
-        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 w-[90%] m-auto gap-5 md:gap-6 lg:gap-8'>
+        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 w-[90%] max-w-[1400px] m-auto '>
         
         {
             SpecialData.map((data, index) => {
@@ -14,7 +16,7 @@ export default function Special() {
                     <div className=''>
                         
                         <div>
-                            <img src={data.img1} className='w-full'/>
+                            <img src={data.img1} className='w-[90%]'/>
                         </div>
                         <div className='text-left py-3'>
                             <div className=''>
@@ -23,7 +25,7 @@ export default function Special() {
                                     <i className='pi pi-star-fill'></i>
                                     <i className='pi pi-star-fill'></i>
                                     <i className='pi pi-star-fill'></i>
-                                    <i className='pi pi-star-fill'></i>
+                                    <i className='pi pi-star'></i>
                                 </div>
                             </div>
                             <h6 className='text-[#777777] text-[16px]'>{data.name}</h6>

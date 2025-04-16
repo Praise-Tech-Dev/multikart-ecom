@@ -2,6 +2,8 @@ import React from 'react'
 import OurSpecialCard from './OurSpecialCard'
 
 export default function Blog() {
+
+  
   return (
     <div>
         <div className='text-center py-[25px]'>

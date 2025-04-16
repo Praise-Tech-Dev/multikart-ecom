@@ -1,20 +1,59 @@
 import React from 'react'
 import ourSpecialData from '../utils/ourSpecialData';
+import Slider from 'react-slick'
 
 export default function OurSpecialCard() {
     console.log(ourSpecialData, 'OurSpecialData');
+
+    var settings = {
+        
+        infinite: true,
+        autoplay:true,
+        speed: 500,
+        autoplaySpeed: 3000,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        initialSlide: 0,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              infinite: true,
+              
+            }
+          },
+          {
+            breakpoint: 760,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      };
+
   return (
     <div>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[90%] m-auto gap-5 md:gap-6 lg:gap-8'>
-        
-        {
+        <div className='w-[90%] m-auto max-w-[1400px]'>
+            <Slider {...settings}>
+            {
             ourSpecialData.map((data, index) => {
                 
                 return (
                     <div className=''>
                         
                         <div>
-                            <img src={data.img} className='w-full'/>
+                            <img src={data.img} className='w-[95%]'/>
                         </div>
                         <div className='text-center py-3'>
                             
@@ -27,6 +66,8 @@ export default function OurSpecialCard() {
                 )
             })    
         }
+            </Slider>    
+        
         </div>
       
     </div>

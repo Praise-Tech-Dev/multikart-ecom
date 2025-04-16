@@ -1,7 +1,16 @@
 @import "tailwindcss";
 
+
+
 #hero {
   background-image: url(../src/assets/banner/men_banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#hero_w {
+  background-image: url(../src/assets/banner/2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

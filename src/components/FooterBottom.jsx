@@ -13,7 +13,7 @@ export default function FooterBottom() {
         <i className='pi pi-shopping-cart'></i>
       </div>
       <div>
-        <i className='pi pi-searchpi-user'></i>
+        <i className='pi pi-search pi-user'></i>
       </div>
       <div>
         <i className='pi pi-cog'></i>

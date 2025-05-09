@@ -1,9 +1,9 @@
 import React from 'react'
-import ourSpecialData from '../utils/ourSpecialData';
+import ecomData from '../utils/ecomApi'
 import Slider from 'react-slick'
 
 export default function OurSpecialCard() {
-    console.log(ourSpecialData, 'OurSpecialData');
+  console.log(ecomData, 'ecomData');
 
     var settings = {
         
@@ -47,7 +47,7 @@ export default function OurSpecialCard() {
         <div className='w-[90%] m-auto max-w-[1400px]'>
             <Slider {...settings}>
             {
-            ourSpecialData.map((data, index) => {
+            ecomData.ourSpecialCollection.map((data, index) => {
                 
                 return (
                     <div className=''>

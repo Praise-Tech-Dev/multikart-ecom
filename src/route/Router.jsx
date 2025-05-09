@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SinglePage from '../pages/SinglePage'
+import Home from '../pages/Home'
 
 export default function Router() {
   return (
@@ -8,7 +9,7 @@ export default function Router() {
       <BrowserRouter>
         <Routes>
             <Route path='/' element={<Home/>}/>
-            <Route path='/single' element={<SinglePage/>}/>
+            <Route path='/single/:id' element={<SinglePage/>}/>
         </Routes>
       </BrowserRouter>
     </div>

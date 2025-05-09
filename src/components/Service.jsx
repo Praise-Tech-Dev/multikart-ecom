@@ -10,7 +10,7 @@ export default function Service() {
         {
             ServiceData.map((data, index)=>{
                 return (
-                    <div className='text-center md:text-left py-2 md:px-2 md:flex lg:flex '>
+                    <div className='text-center md:text-left py-2 md:px-2 md:flex lg:flex ' key={index}>
                         <div className='py-3 md:px-3 '>
                             <i className={`${data.icon} text-[#ff4c3b] text-4xl`}></i>
                         </div>

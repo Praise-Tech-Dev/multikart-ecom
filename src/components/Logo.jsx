@@ -9,7 +9,7 @@ export default function Logo() {
       {
         LogoData.map((data, index)=>{
             return (
-                <div>
+                <div key={index}>
                     <div className='mx-[30px] lg:mx-[54.5px]'>
                         <img src={data.img} className='w-full grayscale opacity-50'/>
                     </div>

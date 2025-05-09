@@ -9,7 +9,7 @@ export default function Header() {
                     <i className='pi pi-bars'></i>
                 </div>
                 <div className='h-6'>
-                    <img src='./logo/logo.png' className='w-full h-full'/>
+                    <img src='../../public/logo/logo.png' className='w-full h-full'/>
                 </div>
             </div>
            
@@ -17,27 +17,27 @@ export default function Header() {
             <ul className='lg:flex uppercase hidden '>
                 <li className='px-7 flex '>
                     <div>Home</div>
-                    <div><i class='pi pi-angle-down'></i></div>
+                    <div><i className='pi pi-angle-down'></i></div>
                 </li>
                 <li className='px-7 flex '>
                     <div>Shop</div>
-                    <div><i class='pi pi-angle-down'></i></div>
+                    <div><i className='pi pi-angle-down'></i></div>
                 </li>
                 <li className='px-7 flex '>
                     <div>Product</div>
-                    <div><i class='pi pi-angle-down'></i></div>
+                    <div><i className='pi pi-angle-down'></i></div>
                 </li>
                 <li className='px-7 flex '>
                     <div>Features</div>
-                    <div><i class='pi pi-angle-down'></i></div>
+                    <div><i className='pi pi-angle-down'></i></div>
                 </li>
                 <li className='px-7 flex '>
                     <div>Pages</div>
-                    <div><i class='pi pi-angle-down'></i></div>
+                    <div><i className='pi pi-angle-down'></i></div>
                 </li>
                 <li className='px-7 flex '>
                     <div>Blogs</div>
-                    <div><i class='pi pi-angle-down'></i></div>
+                    <div><i className='pi pi-angle-down'></i></div>
                 </li>
             </ul>
         </div>

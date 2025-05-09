@@ -2,11 +2,11 @@
 const ecomData = {
     topCollection : [
         {
-            //  '../../public/../../public/public/icon/visa.png'
+            //  '././public/icon/visa.png'
             id: 1,
-            img1: "../../public/card/39.jpg",
-            img2: "../../public/card/6.jpg",
-            img3: "../../public/card/25.jpg",
+            img1: "./card/39.jpg",
+            img2: "./card/6.jpg",
+            img3: "./card/25.jpg",
             name: "trim dress",
             price: "$87.00",
             discount: "$145.00",
@@ -22,10 +22,10 @@ const ecomData = {
         },
         {
             id: 2,
-            img1: "../../public/card/3.jpg",
-            img2: "../../public/card/4.jpg",
-            img3: "../../public/card/5.jpg",
-            img4: "../../public/card/15.jpg",
+            img1: "./card/3.jpg",
+            img2: "./card/4.jpg",
+            img3: "./card/5.jpg",
+            img4: "./card/15.jpg",
             name: "belted dress",
             price: "$111.00",
             discount: "$185.00",
@@ -42,8 +42,8 @@ const ecomData = {
         },
         {
             id: 3,
-            img1: "../../public/card/1.jpg",
-            img2: "../../public/card/2.jpg",
+            img1: "./card/1.jpg",
+            img2: "./card/2.jpg",
             img3: "",
             img4: "",
             name: "fitted dress",
@@ -62,8 +62,8 @@ const ecomData = {
         },
         {
             id: 4,
-            img1: "../../public/card/8.jpg",
-            img2: "../../public/card/7.jpg",
+            img1: "./card/8.jpg",
+            img2: "./card/7.jpg",
             img3: "",
             img4: "",
             name: "belted top",
@@ -81,8 +81,8 @@ const ecomData = {
         },
         {
             id: 5,
-            img1: "../../public/card/9.jpg",
-            img2: "../../public/card/10/jpg",
+            img1: "./card/9.jpg",
+            img2: "./card/10/jpg",
             img3: "",
             img4: "",
             name: "waist dress",
@@ -100,9 +100,9 @@ const ecomData = {
         },
         {
             id: 6,
-            img1: "../../public/card/11.jpg",
-            img2: "../../public/card/12.jpg",
-            img3: "../../public/card/22.jpg",
+            img1: "./card/11.jpg",
+            img2: "./card/12.jpg",
+            img3: "./card/22.jpg",
             img4: "",
             name: "crop top",
             price: "$72.60",
@@ -120,9 +120,9 @@ const ecomData = {
         },
         {
             id: 7,
-            img1: "../../public/card/13.jpg",
-            img2: "../../public/card/8.jpg",
-            img3: "../../public/card/15.jpg",
+            img1: "./card/13.jpg",
+            img2: "./card/8.jpg",
+            img3: "./card/15.jpg",
             name: "sleeveless dress",
             price: "$261.00",
             discount: "$290.00",
@@ -139,8 +139,8 @@ const ecomData = {
         },
         {
             id: 8,
-            img1: "../../public/card/14.jpg",
-            img2: "../../public/card/16.jpg",
+            img1: "./card/14.jpg",
+            img2: "./card/16.jpg",
             name: "v-neck dress",
             price: "$94.50",
             discount: "$315.00",

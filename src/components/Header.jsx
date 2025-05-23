@@ -9,7 +9,7 @@ export default function Header() {
                     <i className='pi pi-bars'></i>
                 </div>
                 <div className='h-6'>
-                    <img src='../../public/logo/logo.png' className='w-full h-full'/>
+                    <img src='./logo/logo.png' className='w-full h-full'/>
                 </div>
             </div>
            

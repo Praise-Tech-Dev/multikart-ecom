@@ -4,9 +4,9 @@ const ecomData = {
         {
             //  '././public/icon/visa.png'
             id: 1,
-            img1: "../../public/card/39.jpg",
-            img2: "../../public/card/6.jpg",
-            img3: "../../public/card/25.jpg",
+            img1: "/card/39.jpg",
+            img2: "/card/6.jpg",
+            img3: "/card/25.jpg",
             name: "trim dress",
             price: "$87.00",
             discount: "$145.00",

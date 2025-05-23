@@ -6,6 +6,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import Subsrcibe from "../components/Subsrcibe";
 import FooterBottom from "../components/FooterBottom";
 
+
 export default function SinglePage() {
   // console.log(ecomData, 'ecomdata');
   const [data, setData] = useState({});

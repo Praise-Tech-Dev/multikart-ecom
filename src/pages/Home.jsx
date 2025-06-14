@@ -12,6 +12,8 @@ import Logo from '../components/Logo'
 import Subsrcibe from '../components/Subsrcibe'
 import Footer from '../components/Footer'
 import FooterBottom from '../components/FooterBottom'
+import Cart from '../components/Cart'
+import Goods from '../components/Goods'
 
 
 export default function Home() {
@@ -30,6 +32,8 @@ export default function Home() {
       <Subsrcibe/>
       <Footer/>
       <FooterBottom/>
+      {/* <Cart/> */}
+      
     </div>
   )
 }

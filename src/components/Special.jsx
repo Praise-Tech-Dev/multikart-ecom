@@ -31,7 +31,7 @@ export default function Special() {
                                             <i className='pi pi-star'></i>
                                         </div>
                                     </div>
-                                    <h6 className='text-[#777777] text-[16px]'>{data.name}</h6>
+                                    <h6 className='text-[#777777] text-[16px]'>{data.item}</h6>
                                     <h4 className='text-[18px] font-medium'>{data.price}</h4>
                                 </div>
                             </div>

@@ -4,8 +4,10 @@ import Slider from "react-slick";
 
 export default function TopCollection() {
   
+  
+
   return (
-    <div>
+    <div id='shop'>
       
         <div className='text-center pt-13'>
           <h4 className='capitalize text-orange-600'>Special offer</h4>

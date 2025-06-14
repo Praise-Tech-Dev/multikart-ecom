@@ -43,14 +43,14 @@ export default function OurSpecialCard() {
       };
 
   return (
-    <div>
+    <div id='blog'>
         <div className='w-[90%] m-auto max-w-[1400px]'>
             <Slider {...settings}>
             {
             ecomData.ourSpecialCollection.map((data, index) => {
                 
                 return (
-                    <div className=''>
+                    <div className='' key={index}>
                         
                         <div>
                             <img src={data.img} className='w-[95%]'/>

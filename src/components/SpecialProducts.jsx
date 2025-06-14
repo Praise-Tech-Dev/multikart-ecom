@@ -3,7 +3,7 @@ import Special from './Special'
 
 export default function SpecialProducts() {
   return (
-    <div>
+    <div id='product'>
         <div className='text-center py-[25px]'>
             <h4 className="text-[#ff4c3b] text-[16px] md:text-[16px] lg:text-[18px] pt-[15px] md:pt-[15px] lg:pt-[35px]">Exclusive Products</h4>
             <h2 className="uppercase text-[22px] md:text-[28px] lg:text-[32px] font-medium">special products</h2>

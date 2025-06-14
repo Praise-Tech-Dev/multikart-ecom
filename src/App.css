@@ -3,21 +3,21 @@
 
 
 #hero {
-  background-image: url(../src/assets/banner/men_banner.jpg);
+  background-image: url(./banner/men_banner.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #hero_w {
-  background-image: url(../src/assets/banner/2.jpg);
+  background-image: url(./banner/2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #fashion {
-  background-image: url(../src/assets/fashion/1.jpg);
+  background-image: url(/fashion/1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

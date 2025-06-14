@@ -1,10 +1,32 @@
-import React from 'react'
 import ecomData from '../utils/ecomApi'
 import Slider from 'react-slick';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
+// import { useState } from 'react'; 
+// import { addToCart } from '../utils/cart';
 
 function Card() {
+// const [cartItems, setCartItems] = useState([]);
+// const updateQuantity = (id, quantity) => {
+//     // if (quantity < 1) return; // Prevent quantity less than 1
+    
+//     const newData = ecomData.topCollection.filter((item) => item.id === id)
+//     setCartItems(newData)
+
+//     addToCart(newData[0])
+//     console.log(newData[0])
+    
+//     // setCartItems((prevItems) =>
+//     //   prevItems.map((item) =>
+//     //     item.id === id ? { ...item, quantity } : item
+//     //   )
+//     // );
+
+      
+//   };
+  
     console.log(ecomData, 'ecomData');
+    // console.log(cartItems)
     // const navigate = useNavigate()
 
     var settings = {
@@ -68,15 +90,19 @@ function Card() {
                                         <i className='pi pi-star'></i>
                                     </div>
                                 </div>
-                                <p className='text-[#777777] text-[16px]'>{data.name}</p>
+                                <p className='text-[#777777] text-[16px]'>{data.item}</p>
                                 {/* <p onClick={()=>navigate(`/single/${data.id}`)}><h6 className='text-[#777777] text-[16px]'>{data.name}</h6></p> */}
                                 <h4 className='text-[18px] font-medium'>{data.price}</h4>
-                                <p>{data.id}</p>
                             </div>
                           </div>
                       </Link>
                         
-                      
+                      {/* <button className="bg-red-500 text-white font-semibold rounded px-6 py-2 hover:bg-red-600 transition" onClick={navigate(`/cart`)}>
+                      ADD TO CART
+                    </button> */}
+                    {/* <button className="bg-red-500 text-white font-semibold rounded px-6 py-2 hover:bg-red-600 transition" onClick={() => updateQuantity(data.id, data.quantity)}>
+                      ADD TO CART
+                    </button> */}
                         
                     </div>
                 )

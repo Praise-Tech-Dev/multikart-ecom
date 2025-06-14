@@ -3,14 +3,14 @@
 
 
 #hero {
-  background-image: url(./banner/men_banner.jpg);
+  background-image: url(/banner/men_banner.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #hero_w {
-  background-image: url(./banner/2.jpg);
+  background-image: url(/banner/2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
